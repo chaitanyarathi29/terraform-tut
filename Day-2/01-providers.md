@@ -1,6 +1,6 @@
-# Providers 
+# Providers
 
-A provider in Terraform is a plugin that enables interaction with an API. 
+A provider in Terraform is a plugin that enables interaction with an API.
 This includes cloud providers, SaaS providers, and other APIs. The providers are specified in the Terraform configuration code. They tell Terraform which services it needs to interact with.
 
 For example, if you want to use Terraform to create a virtual machine on AWS, you would need to use the aws provider. The aws provider provides a set of resources that Terraform can use to create, manage, and destroy virtual machines on AWS.
@@ -34,12 +34,11 @@ There are many other providers available, and new ones are being added all the t
 
 Providers are an essential part of Terraform. They allow Terraform to interact with a wide variety of cloud providers and other APIs. This makes Terraform a very versatile tool that can be used to manage a wide variety of infrastructure.
 
-
 ## Different ways to configure providers in terraform
 
 There are three main ways to configure providers in Terraform:
 
-### In the root module 
+### In the root module
 
 This is the most common way to configure providers. The provider configuration block is placed in the root module of the Terraform configuration. This makes the provider configuration available to all the resources in the configuration.
 

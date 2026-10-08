@@ -2,10 +2,8 @@
 
 You can use multiple providers in one single terraform project. For example,
 
-
 1. Create a providers.tf file in the root directory of your Terraform project.
 2. In the providers.tf file, define the AWS and Azure providers. For example:
-
 
 ```
 provider "aws" {
@@ -34,4 +32,3 @@ resource "azurerm_virtual_machine" "example" {
   size = "Standard_A1"
 }
 ```
-
