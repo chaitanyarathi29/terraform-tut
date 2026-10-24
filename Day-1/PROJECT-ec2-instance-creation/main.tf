@@ -42,3 +42,6 @@ resource "aws_security_group" "inbound_traffic" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+
+
+
